@@ -1,0 +1,185 @@
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;  
+}
+
+
+
+#navbar-logo{
+    float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+
+}
+
+h2{
+    font-size: 30px;
+
+}
+
+.work{
+
+    font-size: 70px;
+    color: teal;
+    padding-left: 15px;
+
+}
+
+.container{
+
+    padding: 130px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 150px;
+
+}
+
+p{
+
+    font-size: 20px;
+
+}
+
+footer{
+
+    text-align: center;
+    background: #666666;
+    height: 20px;
+    padding: 40px;
+    border: 8px solid teal;
+
+}
+
+.centered {
+
+    position: absolute;
+    top: 100px;
+
+}
+
+.bottom{
+
+    position: relative;
+    font-size: 35px;
+    bottom: 200px;
+    color: gray;
+
+}
+
+nav{
+
+    background-color: transparent;
+
+}
+
+@media screen and (max-with:640px){
+
+    body{
+        background-image: url() 
+
+    }
+    p{
+        color: #ffffff;
+    }
+    header{
+        font-size: 16px;
+    }
+    #aboutme{
+        font-size: 16px;
+    }
+    #protfolio{
+        font-size: 16px;
+    }
+    #contact{
+        font-size: 16px;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+
+
+}
+@media screen and (max-with:768px){
+    header{
+        position: static;
+        font-size: 30px;
+
+    }
+    body{
+        background-image: url()
+
+    }
+    #aboutme{
+        width: 100%;
+        float: left;
+        font-size: 16px;
+    }
+    #portfolio{
+        width: 100%;
+        float: left;
+        font-size: 16px;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-with:980px){
+    header{
+        position: static;
+        font-size: 30px;
+
+    }
+    body{
+        background-image: url()
+
+    }
+    #aboutme{
+        width: 100%;
+        float: left;
+        font-size: 16px;
+    }
+    #portfolio{
+        width: 100%;
+        float: left;
+        font-size: 16px;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+
+}
